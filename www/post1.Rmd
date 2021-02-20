@@ -1,5 +1,5 @@
 ---
-title: "My first story"
+title: "Post 1: Introduction"
 ---
 
 My thoughts on the intro to *Data Feminism*. 

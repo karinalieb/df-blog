@@ -9,7 +9,9 @@ Write stuff in Markdown here. Like **bold** things and *italic* things.
 
 And images:
 
-![](https://media.giphy.com/media/1hqYk0leUMddBBkAM7/giphy.gif)
+```{r, echo = FALSE, out.width = '50%'}
+knitr::include_graphics("images/df-cover.png")
+```
 
 And don't forget about R code:
 
