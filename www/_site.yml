@@ -1,7 +1,7 @@
 name: "www"
 output_dir: "../docs"
 navbar:
-  title: "Your Name"
+  title: "Karina Lieb"
   left:
     - text: "Home"
       icon: fa-home
