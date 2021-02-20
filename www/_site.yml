@@ -12,7 +12,7 @@ navbar:
     - text: "Blog"
       icon: fa-newspaper
       menu:
-        - text: "Post 1: Introduction"
+        - text: "Introduction"
           href: post1.html
         - text: "Post 2"
           href: post2.html
