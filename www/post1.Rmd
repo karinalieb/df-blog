@@ -2,4 +2,4 @@
 title: "Post 1: Introduction"
 ---
 
-My thoughts on the intro to *Data Feminism*. test test test testbiuiuh
+My thoughts on the intro to *Data Feminism*. test test test hello
