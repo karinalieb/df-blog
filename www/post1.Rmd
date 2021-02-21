@@ -1,6 +1,6 @@
 ---
 title: 'Introduction: The Double-Edged Sword'
-date: "2/21/21"
+date: "February 21, 2021"
 ---
 
 The introduction to *Data Feminism* ^[https://data-feminism.mitpress.mit.edu/pub/frfa9szd/release/4] makes it clear that data science is an effective tool which can be used to manipulate power dynamics of many kinds in our society. It presents the case of Christine Darden as an example of data being used to promote equality in the workplace, helping to break down unjust gender, race, and administrative power dynamics. It also mentions that data interpretation has been used to bolster the eugenics movement and predictive policing. With this array of applications, D'Ignazio and Klein aptly refer to data as a “double-edged sword”. 

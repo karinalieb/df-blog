@@ -5,11 +5,9 @@ output:
     toc: false
 ---
 
-Hi! I'm Karina, and I will be writing about Data Feminism as a 
+Hi! I'm Karina, and I will be writing about my reactions to *Data Feminism* by Catherine D'Ignazio and Lauren F. Klein as a part of my capstone class in Statistical and Data Sciences. 
 
-And images:
-
-```{r, echo = FALSE, out.width = '50%'}
+```{r, echo = FALSE, out.width = '50%', fig.align = 'center'}
 knitr::include_graphics("images/df-cover.png")
 ```
 
