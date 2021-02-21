@@ -1,7 +1,7 @@
 name: "www"
 output_dir: "../docs"
 navbar:
-  title: "Karina Lieb"
+  title: "Karina's Data Feminism Blog"
   left:
     - text: "Home"
       icon: fa-home
@@ -12,19 +12,17 @@ navbar:
     - text: "Blog"
       icon: fa-newspaper
       menu:
-        - text: "Introduction"
+        - text: "Introduction: The Double-Edged Sword"
           href: post1.html
         - text: "Post 2"
           href: post2.html
   right:
     - icon: fa-envelope 
-      href: mailto:bbaumer@smith.edu
+      href: mailto:klieb@smith.edu
     - icon: fa-github
-      href: http://www.github.com/beanumber
-    - icon: fa-twitter
-      href: http://www.twitter.com/BaumerBen
+      href: https://github.com/karinalieb
     - icon: fa-linkedin
-      href: https://www.linkedin.com/in/ben-baumer-809b3a75
+      href: https://www.linkedin.com/in/karina-lieb/
 
 output:
   html_document:
@@ -32,3 +30,5 @@ output:
     highlight: pygments
     toc: true
     toc_float: true
+  
+

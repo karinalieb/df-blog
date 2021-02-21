@@ -1,21 +1,15 @@
 ---
-title: "My website"
+title: "Karina's Data Feminism Blog"
 output:
   html_document:
     toc: false
 ---
 
-Write stuff in Markdown here. Like **bold** things and *italic* things. 
+Hi! I'm Karina, and I will be writing about Data Feminism as a 
 
 And images:
 
 ```{r, echo = FALSE, out.width = '50%'}
 knitr::include_graphics("images/df-cover.png")
-```
-
-And don't forget about R code:
-
-```{r}
-knitr::kable(mtcars)
 ```
 
