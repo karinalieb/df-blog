@@ -14,7 +14,7 @@ navbar:
       menu:
         - text: "Introduction: The Double-Edged Sword"
           href: post1.html
-        - text: "Chapter 1: Coming Soon"
+        - text: "Chapter 1: OPP (Other People's Problems)"
           href: post2.html
   right:
     - icon: fa-envelope 
