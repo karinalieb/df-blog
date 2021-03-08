@@ -16,6 +16,8 @@ navbar:
           href: post1.html
         - text: "Chapter 1: OPP (Other People's Problems)"
           href: post2.html
+        - text: "Chapter 2: The Pigeonhole"
+          href: post3.html
   right:
     - icon: fa-envelope 
       href: mailto:klieb@smith.edu

@@ -12,7 +12,7 @@
 
 
 
-<title>Karina’s Data Feminism Blog</title>
+<title>Chapter 2: The Pigeonhole</title>
 
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -20,6 +20,9 @@
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/jqueryui-1.11.4/jquery-ui.min.js"></script>
+<link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
+<script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
 <link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
@@ -234,6 +237,63 @@ $(document).ready(function () {
 
 
 
+<style type="text/css">
+
+#TOC {
+  margin: 25px 0px 20px 0px;
+}
+@media (max-width: 768px) {
+#TOC {
+  position: relative;
+  width: 100%;
+}
+}
+
+
+.toc-content {
+  padding-left: 30px;
+  padding-right: 40px;
+}
+
+div.main-container {
+  max-width: 1200px;
+}
+
+div.tocify {
+  width: 20%;
+  max-width: 260px;
+  max-height: 85%;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  div.tocify {
+    width: 25%;
+  }
+}
+
+@media (max-width: 767px) {
+  div.tocify {
+    width: 100%;
+    max-width: none;
+  }
+}
+
+.tocify ul, .tocify li {
+  line-height: 20px;
+}
+
+.tocify-subheader .tocify-item {
+  font-size: 0.90em;
+}
+
+.tocify .list-group-item {
+  border-radius: 0px;
+}
+
+
+</style>
+
+
 
 </head>
 
@@ -241,6 +301,16 @@ $(document).ready(function () {
 
 
 <div class="container-fluid main-container">
+
+
+<!-- setup 3col/9col grid for toc_float and main content  -->
+<div class="row-fluid">
+<div class="col-xs-12 col-sm-4 col-md-3">
+<div id="TOC" class="tocify">
+</div>
+</div>
+
+<div class="toc-content col-xs-12 col-sm-8 col-md-9">
 
 
 
@@ -320,16 +390,33 @@ $(document).ready(function () {
 
 
 
-<h1 class="title toc-ignore">Karina’s Data Feminism Blog</h1>
+<h1 class="title toc-ignore">Chapter 2: The Pigeonhole</h1>
+<h4 class="date">March 7, 2021</h4>
 
 </div>
 
 
-<p>Hi! I’m Karina, and I will be writing about my reactions to <em>Data Feminism</em> by Catherine D’Ignazio and Lauren F. Klein as a part of my capstone class in Statistical and Data Sciences.</p>
-<p><img src="images/df-cover.png" width="50%" style="display: block; margin: auto;" /></p>
+<p><img src="images/pigeonhole.jpg" width="25%" style="float:right; padding:5px" /></p>
+<p>A couple of stories mentioned in this chapter led me to think deeper about my potential future role as a data scientist. One was that of Julia Angwin, the data journalist that audited the Equivant recidivism risk algorithm. The chapter mentions that in addition to promoting racial discrimination in recidivism risk, the algorithm also negatively impacted females. A “high risk” score for a woman was found to be equivalent to a “medium risk” score for a man. But, women with high risk scores were being judged as if they were as likely to return to jail as a high risk man, which is not the case. Angwin decided to make the focus of the Equivant audit story about racial discrepancies rather than about gender, in part because of sexism that she had experienced as a female data journalist. Up until that point, she had been hesitant to work on stories concerning gender disparities because she did not want to become pigeonholed as a female data journalist who only works on projects about gender issues. Here, we see a case of internalized sexism that has real consequences – fewer women willing to advocate for gender equality in their professions.</p>
+<p>Prior to reading this, I had never really considered the possibility of being pigeonholed at work. At least, not in a negative way. I tend to think that creating some sort of theme to your professional ventures is a positive. It can create a narrative, something to tie all of your work together, and some area to build expertise in. However, the issue is when that niche is expected of you simply because of your social identities. And, once one does what is expected of them, it can make it much more difficult to do anything else. As a female graduate of a historically women’s college, I can easily see this gender pigeonhole being applied to me in the workplace. For me, at this early point in my career, I take little issue with that assumption because I am happy to work on the important issues of social justice and gender equity, and I don’t mind making it a part of my “brand”. However, as I progress in my career I will take care to be aware of the threat of pigeonholing and try to avoid falling into a restrictive position professionally.</p>
+<p><em>Fun fact: The term “pigeonhole” comes from the man-made compartments that racing pigeons were nested in. It was then used to refer to the arrangement of compartments in offices used to sort and file documents, due to their resemblance to the pigeon nests. The term then evolved to mean generally sorting or classifying information, which is similar to its modern-day meaning of restrictively classifying people.</em><a href="#fn1" class="footnoteRef" id="fnref1"><sup>1</sup></a></p>
+<p><font size = "1"></p>
+<p>Image sources</p>
+<ul>
+<li>Pigeons: <a href="https://en.wikipedia.org/wiki/Pigeonhole_principle" class="uri">https://en.wikipedia.org/wiki/Pigeonhole_principle</a></li>
+</ul>
+<p></font></p>
+<div class="footnotes">
+<hr />
+<ol>
+<li id="fn1"><p><a href="https://en.wikipedia.org/wiki/Pigeon-hole_messagebox#" class="uri">https://en.wikipedia.org/wiki/Pigeon-hole_messagebox#</a><a href="#fnref1">↩</a></p></li>
+</ol>
+</div>
 
 
 
+</div>
+</div>
 
 </div>
 
@@ -362,6 +449,32 @@ $(document).ready(function () {
 
 <!-- code folding -->
 
+<script>
+$(document).ready(function ()  {
+
+    // move toc-ignore selectors from section div to header
+    $('div.section.toc-ignore')
+        .removeClass('toc-ignore')
+        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
+
+    // establish options
+    var options = {
+      selectors: "h1,h2,h3",
+      theme: "bootstrap3",
+      context: '.toc-content',
+      hashGenerator: function (text) {
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_').toLowerCase();
+      },
+      ignoreSelector: ".toc-ignore",
+      scrollTo: 0
+    };
+    options.showAndHide = true;
+    options.smoothScroll = true;
+
+    // tocify
+    var toc = $("#TOC").tocify(options).data("toc-tocify");
+});
+</script>
 
 <!-- dynamically load mathjax for compatibility with self-contained -->
 <script>
