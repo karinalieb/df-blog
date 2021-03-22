@@ -1,0 +1,23 @@
+---
+title: 'Chapter 4: The Paradox of Exposure'
+date: "March 21, 2021"
+---
+
+In chapter 4 of Data Feminism^[https://data-feminism.mitpress.mit.edu/pub/h1w0nbqp/release/2], one concept that stood out to me was the idea of carefully thinking about what data you *don’t* collect. As the book puts it, “sometimes the most ethical thing to do is to help people be obscure, hidden, and invisible.” 
+```{r echo=FALSE, out.width= "50%", out.extra='style="float:right; padding:5px"'}
+knitr::include_graphics("images/america.jpg")
+```
+The chapter discusses multiple examples where intentionally leaving out variables during data collection could actually increase the amount of good your data can do. The authors give the example of the US census. For the 2020 census, there was a proposal to include a question about citizenship status. While collecting this basic demographic information may seem appropriate, this measure would discourage undocumented immigrants from completing the census. Undercounting this vulnerable population in the census would lead to political underrepresentation and federal underfunding. In this situation, if the goal of the data collectors is to best help undocumented immigrants in the US, then they might choose to leave out the citizenship question and forgo this additional information. The authors call this situation a “paradox of exposure”, where “those who stand to significantly gain from being counted [are] in the most danger from that same counting (or classifying) act.” 
+
+I appreciate how this definition draws attention to the ethics surrounding the act of counting itself. This chapter discusses both how counting certain variables can create negative outcomes (as in the census example), as well as positive outcomes (as in the example of the Colored Conventions Project to highlight the role of Black Americans in the abolition movement). This leads to the question, how do we know what data to collect? Perhaps more importantly, how do we know what data *not* to collect? In general, the tendency of researchers is to think the more data the better. After all, more data means more information to better inform our analysis and decision-making. However, this way of thinking ignores the impact of information-gathering on the subjects, and ignores how our analysis results may be used to affect the lives of the subjects. Right now, my group for the capstone project is thinking a lot about variable selection, and this chapter helped me to consider the impact of such decisions. For instance, if we choose to focus our analysis on differences between racial groups, then our sponsor might center their outreach around a specific racial group. But if we choose to analyze differences between geographical areas, the outreach is more likely to focus on a neighborhood rather than race. Since the process of variable selection has a direct impact on what groups are being targeted, we must consider the downstream effect of these targeted efforts, and whether it truly benefits these groups of people to be included in our analysis. 
+
+
+
+<font size = "1">
+
+Image sources
+
+* America graphic: https://fcw.com/articles/2018/03/27/census-adds-citzenship-question.aspx
+
+
+</font>
